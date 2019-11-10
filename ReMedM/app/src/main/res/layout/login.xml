@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_principal">
+
+    <TextView
+        android:id="@+id/Perfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/remedicon"
+        app:layout_constraintEnd_toEndOf="@id/Perfil"
+        app:layout_constraintStart_toStartOf="@id/Perfil"
+        app:layout_constraintTop_toTopOf="@id/Perfil"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/bg_blanco_redondo"
+        app:layout_constraintEnd_toEndOf="@id/Perfil"
+        app:layout_constraintStart_toStartOf="@id/Perfil"
+        app:layout_constraintTop_toTopOf="@id/Perfil"/>
+
+    <ImageView
+        android:id="@+id/IP7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/perfil"
+        app:layout_constraintEnd_toEndOf="@id/Perfil"
+        app:layout_constraintHorizontal_bias="0.210"
+        app:layout_constraintStart_toStartOf="@id/Perfil"
+        app:layout_constraintTop_toTopOf="@id/Perfil"/>
+    <EditText
+        android:id="@+id/Usuario"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/cardview_light_background"
+        android:text="Usuario"
+        android:inputType="text"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@id/Perfil"
+        app:layout_constraintHorizontal_bias="0.699"
+        app:layout_constraintStart_toStartOf="@id/Perfil"
+        app:layout_constraintTop_toTopOf="@id/Perfil"/>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/bg_blanco_redondo"
+        app:layout_constraintEnd_toEndOf="@id/Perfil"
+        app:layout_constraintStart_toStartOf="@id/Perfil"
+        app:layout_constraintTop_toTopOf="@id/Perfil"/>
+
+    <ImageView
+        android:id="@+id/IP8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/contra"
+        app:layout_constraintEnd_toEndOf="@id/Perfil"
+        app:layout_constraintHorizontal_bias="0.210"
+        app:layout_constraintStart_toStartOf="@id/Perfil"
+        app:layout_constraintTop_toTopOf="@id/Perfil"/>
+    <EditText
+        android:id="@+id/Contrasenia"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/cardview_light_background"
+        android:text="Contraseña"
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@id/Perfil"
+        app:layout_constraintHorizontal_bias="0.699"
+        app:layout_constraintStart_toStartOf="@id/Perfil"
+        app:layout_constraintTop_toTopOf="@id/Perfil"/>
+    <Button
+        android:id="@+id/BtnEntrar"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="8dp"
+        android:text="Entrar"
+        android:textColor="@color/cardview_light_background"
+        android:background="@drawable/bg_verde_redondo"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@id/Perfil"
+        app:layout_constraintHorizontal_bias="0.210"
+        app:layout_constraintStart_toStartOf="@id/Perfil"
+        app:layout_constraintTop_toTopOf="@id/Perfil"/>
+    <Button
+        android:id="@+id/BtnRegistrarse"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="8dp"
+        android:text="Registrarse"
+        android:textColor="@color/cardview_light_background"
+        android:background="@drawable/bg_verde_redondo"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@id/Perfil"
+        app:layout_constraintHorizontal_bias="0.779"
+        app:layout_constraintStart_toStartOf="@id/Perfil"
+        app:layout_constraintTop_toTopOf="@id/Perfil"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

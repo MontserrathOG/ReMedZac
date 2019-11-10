@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="BuscarCliAr">
+        <item>Cardiologia</item>
+        <item>General</item>
+        <item>Gastronterologia</item>
+        <item>Odontología</item>
+        <item>Nutrición</item>
+        <item>Psicología</item>
+    </string-array>
+    <string-array name="BuscarCliMed">
+        <item>Sergio Sanchéz Mercado</item>
+        <item>Ricardo Zaldivar Pichardo</item>
+    </string-array>
+    <string-array name="BuscarCli">
+        <item>IISE</item>
+        <item>Hospital 234</item>
+    </string-array>
+    <string-array name="BuscarCliMedNue">
+        <item>Mariano Rosas Cruz</item>
+        <item>Renata Mujia Marano</item>
+    </string-array>
+
+
+</resources>

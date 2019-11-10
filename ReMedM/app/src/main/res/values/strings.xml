@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">ReMed</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Montserrath Olivo Gaspar</string>
+    <string name="nav_header_subtitle">lightmon16@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Perfil</string>
+    <string name="menu_gallery">Historial clinico</string>
+    <string name="menu_slideshow">Mis medicamentos</string>
+    <string name="menu_tools">Mis estudios</string>
+    <string name="menu_share">Mis citas</string>
+    <string name="menu_send">Send</string>
+
+    <string name="perfil">Datos de perfil</string>
+    <string name="nombre">Nombre</string>
+    <string name="apaterno">Apellido paterno</string>
+    <string name="amaterno">Apellido materno</string>
+    <string name="fecha">Fecha de nacimiento</string>
+    <string name="domicilio">Domicilio</string>
+    <string name="telefono">Telefono</string>
+    <string name="correo">Correo</string>
+    <string name="contraseña">Contraseña</string>
+
+    <string name="hc">Historial clinico</string>
+    <string name="Area">Area</string>
+    <string name="medico">Medico</string>
+    <string name="General">Historial General</string>
+    <string name="APP">Antecedentes personales patologicos</string>
+    <string name="AF">Antecedentes Familiares</string>
+    <string name="APNP">Antecedentes personales no patologicos</string>
+
+    <string name="medicamento">*Omeprazol 1 pastilla cada 8 hrs x 15 dias\n
+        *Jarabe 1 pastilla cada 8 hrs x 15 dias\n
+        *Paracetamol 1 pastilla cada 6 hrs x 15 dias\n
+        Medico: Sergio Sanchéz Mercado\n Fecha:8/11/2019
+    </string>
+    <string name="estudio">Fecha: 12/11/2018\n
+        Medico: Sergio Sanchéz Mercado \n
+        Area: Gastronterología\n
+        Laboratorio: MMM\n
+        Resultado: Favorable
+    </string>
+    <string name="cita">Fecha: 12/11/2018\n
+        Horario: 10:20:00 am\n
+        Medico: Sergio Sanchéz Mercado \n
+        Area: Gastronterología\n
+        Consultorio: 10\n
+        Hospital: LS General
+    </string>
+</resources>
